@@ -1,10 +1,12 @@
-package design_patterns.structural.bridge.person;
+package design_patterns.structural.bridge;
 
 import design_patterns.structural.bridge.SexExecutor;
 import design_patterns.structural.bridge.exception.SexualAttractionException;
 import design_patterns.structural.bridge.orientation.Bi;
 import design_patterns.structural.bridge.orientation.Hetero;
 import design_patterns.structural.bridge.orientation.Homo;
+import design_patterns.structural.bridge.person.Man;
+import design_patterns.structural.bridge.person.Woman;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertThrows;
